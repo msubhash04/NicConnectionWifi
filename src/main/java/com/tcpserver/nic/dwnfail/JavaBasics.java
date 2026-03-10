@@ -11,15 +11,21 @@ public class JavaBasics {
 //
 //        System.out.println(x+"  ---  "+y+"  ---  "+z);
 
-        Test  t=new Test();
-        t.i = 5;
-        Clone c=new Clone(t,10);
-        System.out.println(c.t.i+"--------- "+c.j);
+        float a = 123.456F;
+        float b = 123.456f;
+        double c = 123.456;
 
-        Clone t2=(Clone) c.clone();
-        t2.t.i=6;
-        t2.j=7;
-        System.out.println(c.t.i+"--------- "+c.j);
+        System.out.println(a+"  ---  "+b+"  ---  "+c);
+
+//        Test  t=new Test();
+//        t.i = 5;
+//        Clone c=new Clone(t,10);
+//        System.out.println(c.t.i+"--------- "+c.j);
+//
+//        Clone t2=(Clone) c.clone();
+//        t2.t.i=6;
+//        t2.j=7;
+//        System.out.println(c.t.i+"--------- "+c.j);
 //        System.out.println(t2.t.i+"--------- "+t2.j);
     }
 }
