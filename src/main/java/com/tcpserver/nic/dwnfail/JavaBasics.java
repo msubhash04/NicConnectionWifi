@@ -12,12 +12,15 @@ public class JavaBasics {
 //
 //        System.out.println(x+"  ---  "+y+"  ---  "+z);
 
-        float a = 123.456F;
-        float b = 123.456f;
-        double c = 123.456;
-        double d = 0xFace;
-        double e = 0xBeef;
-        System.out.println(a+"  ---  "+b+"  ---  "+c+"  ---  "+d+"  ---  "+e);
+//        float a = 123.456F;
+//        float b = 123.456f;
+//        double c = 123.456;
+//        double d = 0xFace;
+//        double e = 0xBeef;
+//        System.out.println(a+"  ---  "+b+"  ---  "+c+"  ---  "+d+"  ---  "+e);
+
+
+        System.out.println("Masked Here");
 
 
 
