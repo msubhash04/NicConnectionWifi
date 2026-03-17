@@ -36,12 +36,19 @@ public class JavaBasics {
 
 
         //Date ambuiguity problem... The date is present in the java.util and java.sql package....
-        Date d = new Date();
+//        Date d = new Date();
 
         //This below error i got...
 //        D:\SUBHASH\QUANTUM_NIC_TCP\nic\src\main\java\com\tcpserver\nic\dwnfail\JavaBasics.java:40:9
 //        java: reference to Date is ambiguous
 //        both class java.sql.Date in java.sql and class java.util.Date in java.util match
+
+
+        /* Static Import and Non static Import */
+
+        System.out.println(Math.sqrt(9));
+        System.out.println(Math.max(25,16));
+        System.out.println(Math.random());
 
     }
 }
