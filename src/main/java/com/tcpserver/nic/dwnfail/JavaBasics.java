@@ -2,7 +2,6 @@ package com.tcpserver.nic.dwnfail;
 
 
 import com.tcpserver.nic.client.Test;
-
 import java.util.*;
 import java.sql.*;
 
@@ -43,5 +42,6 @@ public class JavaBasics {
 //        D:\SUBHASH\QUANTUM_NIC_TCP\nic\src\main\java\com\tcpserver\nic\dwnfail\JavaBasics.java:40:9
 //        java: reference to Date is ambiguous
 //        both class java.sql.Date in java.sql and class java.util.Date in java.util match
+
     }
 }
