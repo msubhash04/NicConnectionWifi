@@ -22,10 +22,10 @@ public class InsertTicketsFile {
         String versions="43H";
         String	UID="Quantum";
 //    	DepotCode="GJ-GDR-LWD";
-        String	DepotCode="GJ-BRD-BDL";
+        String	DepotCode="GJ-PLN-AMJ";
 
         //	EbtmNo="53192113";
-        String EbtmNo="53194420";
+        String EbtmNo="53193792";
         try (BufferedReader reader = new BufferedReader(new FileReader(readFilePath))) {
             String line="";
 
